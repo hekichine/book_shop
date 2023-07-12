@@ -1,0 +1,89 @@
+.ms-section-shipping-inner {
+  padding: 90px 12% 100px 12%;
+  background-color: #666b7e;
+  margin-bottom: 70px;
+}
+.ms-shipping {
+  background-color: red;
+}
+.ms-shipping-item .ms-shipping-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ms-shipping-inner svg {
+  fill: #fff;
+}
+.ms-shipping-inner .ms-shipping-icon {
+  margin-bottom: 10px;
+}
+.ms-shipping-inner .ms-shipping-title {
+  font-size: 22px;
+  font-family: var(--jost);
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.2;
+}
+.ms-shipping-inner .ms-shipping-des p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--jost);
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+.ms-shipping .flickity-page-dots {
+  display: none;
+}
+.ms-shipping .flickity-page-dots .dot {
+  background-color: #fff;
+}
+@media screen and (max-width: 1365px) {
+  .ms-section-shipping-inner {
+    margin-bottom: 50px;
+    padding: 70px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .ms-shipping .flickity-page-dots {
+    display: block;
+  }
+  .ms-section-shipping-inner {
+    padding: 40px 8%;
+    padding-bottom: 70px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ms-shipping .flickity-page-dots .dot {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .ms-section-shipping-inner {
+    padding: 40px;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+  }
+  .ms-shipping .flickity-page-dots .dot {
+    width: 7px;
+    height: 7px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .ms-shipping .flickity-page-dots {
+    bottom: -15px;
+  }
+  .ms-shipping .flickity-page-dots .dot {
+    width: 5px;
+    height: 5px;
+  }
+  .ms-section-shipping-inner {
+    padding: 40px 0;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+}

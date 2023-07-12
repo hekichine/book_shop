@@ -1,0 +1,91 @@
+.ms-banner {
+  margin-bottom: 40px;
+}
+.ms-banner .ms-banner-inner {
+  position: relative;
+}
+.ms-banner-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ms-banner-inner .ms-banner-content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+  text-align: left;
+}
+.ms-banner-content h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 70px;
+  color: #292929;
+  margin-bottom: 0;
+}
+.ms-banner-content h4 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #292929;
+  text-transform: uppercase;
+}
+.ms-banner-content h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 100%;
+  margin-bottom: 60px;
+  color: #292929;
+}
+.ms-banner-content .ms-banner-btn {
+  font-weight: 600;
+  line-height: 20px;
+  padding: 20px 45px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #292929;
+  border: 2px solid #292929;
+  transition: 0.25s ease-in-out;
+  border-radius: 5px;
+}
+
+@media (hover: hover) {
+  .ms-banner-btn:hover {
+    background-color: #292929;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ms-banner-content h3 {
+    font-size: 30px;
+  }
+  .ms-banner-content h4 {
+    font-size: 45px;
+  }
+  .ms-banner-content h5 {
+    margin-bottom: 20px;
+  }
+  .ms-banner-content .ms-banner-btn {
+    padding: 15px 30px;
+  }
+  .ms-banner-inner img {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ms-banner-inner .ms-banner-content {
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+  .ms-banner-inner .ms-banner-content h5 br {
+    display: none;
+  }
+  .ms-banner-content h4 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Sora";
+  src: url(./fonts/Sora-VariableFont_wght.ttf) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  font-family: "Sora", "HelveticaNeue-Light", "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  line-height: 1.714;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+.ms-pr {
+  position: relative;
+}
+.ms-po {
+  position: absolute;
+}
+.ms-oh {
+  overflow: hidden;
+}
+.w-100 {
+  width: 100%;
+}
+.ratio-4x5 {
+  --bs-aspect-ratio: 123.8390092879257%;
+}
+.ratio-14x10 {
+  --bs-aspect-ratio: 140%;
+}
+.pt-127 {
+  padding-top: 127px;
+}
+strong {
+  font-weight: 600;
+}
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+a {
+  text-decoration: none !important;
+  color: #000;
+  display: inline-block;
+  transition: 0.25s ease-in-out;
+  color: #000;
+}
+a:hover {
+  color: #fb417f;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@media screen and (min-width: 1025px) {
+  .w-lg-50 {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (min-width: 1750px) {
+  .container {
+    max-width: 1740px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pt-127 {
+    padding-top: 65px;
+  }
+}

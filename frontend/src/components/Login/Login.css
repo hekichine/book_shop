@@ -1,0 +1,8 @@
+.ms-login .login,
+.ms-login .image {
+  min-height: 100vh;
+}
+.ms-login .bg-image {
+  background-size: cover;
+  background-position: left center;
+}

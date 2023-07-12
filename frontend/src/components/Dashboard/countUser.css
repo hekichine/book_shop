@@ -1,0 +1,31 @@
+.total-user i {
+  font-size: 50px;
+}
+.total-user-count {
+  text-align: left;
+}
+.total-user-count p:first-child {
+  font-size: 45px;
+  color: #000;
+  margin-bottom: 0px;
+  line-height: 1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.total-user-count p:last-child {
+  font-size: 20px;
+  color: #b2b5c0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+.total-user svg {
+  height: 60px;
+  width: 60px;
+}
+.total-inner {
+  padding: 20px 0;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.total-item {
+  margin-bottom: 10px;
+}

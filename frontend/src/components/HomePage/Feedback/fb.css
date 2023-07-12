@@ -1,0 +1,18 @@
+.feedback {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99999;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.feedback .feedback-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.feedback a {
+  display: inline-flex;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

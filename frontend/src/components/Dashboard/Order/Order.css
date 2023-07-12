@@ -1,0 +1,19 @@
+.ms-order-table ul li {
+  list-style: decimal;
+}
+.ms-order-table ul {
+  padding-left: 20px;
+}
+.ms-order-table {
+  max-width: 1900px;
+  overflow-x: scroll;
+}
+.ms-order-table .failed > * {
+  color: red !important;
+}
+.ms-order-table .done > * {
+  color: rgb(56, 138, 45) !important;
+}
+.ms-order-table .pending > * {
+  color: #ccb103 !important;
+}

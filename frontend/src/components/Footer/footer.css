@@ -1,0 +1,56 @@
+.ms-footer {
+}
+.ms-footer .ms-footer-logo {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.ms-footer .ms-ft-top {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ms-footer .ms-ft-top p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #686868;
+}
+.ms-footer .power {
+  line-height: 26px;
+}
+.ms-footer .ms-ft-heading {
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.ms-footer .ms-ft-content a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #686868;
+  transition: 0.5s ease-in;
+}
+.ms-ft-bottom,
+.ms-footer {
+  border-top: 1px solid #ccc;
+}
+.ms-ft-bottom .social-media {
+  margin: 0;
+}
+.ms-ft-bottom .row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (hover: hover) {
+  .ms-footer .ms-ft-content a:hover {
+    color: #000;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ms-footer .ms-ft-content {
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,28 @@
+.ms-admin-product-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  pointer-events: none;
+  justify-content: center;
+  align-items: center;
+}
+.ms-admin-product-popup.active {
+  display: flex;
+  pointer-events: auto;
+}
+.ms-admin-product-popup .container {
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 1200px;
+}
+
+.ms-admin-product-popup button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+}
